@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#photography",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "89f96653c34a5126",
@@ -147,5 +148,7 @@
     }
   },
   "active": "59570e14b89ce80a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Screenshot 2024-03-16 at 9.00.53 PM.png"
+  ]
 }
