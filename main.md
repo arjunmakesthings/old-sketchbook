@@ -1,4 +1,32 @@
 ***
+### repeating video input in the shape of a flower #punctual 
+Repeat video input in the shape of a flower. 
+
+``` c
+-- video flower
+
+z << 0.8; 
+
+a << [0, 0.2 .. 1]; 
+
+o << 0.3; 
+
+
+r << 1; 
+g << 0.31; 
+b << 0.61; 
+
+col << [r,g,b]*o;
+
+z2 << 0.9;  
+
+zoom [z2*(-1), z2] $ tile [2, 2] [[fit (1/1) $ spin [a] $ [zoom[(z*(-1)),z] [cam]]]]* o * [col]>> video; 
+```
+
+![[Screenshot 2024-03-17 at 10.21.41 PM.png]]
+
+22:20, 2024-03-17
+***
 ### making an 'a' with video input #punctual 
 Made a lower-case 'a' with shaders on Punctual. 
 
