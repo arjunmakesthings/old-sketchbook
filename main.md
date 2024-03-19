@@ -1,4 +1,28 @@
 ***
+### in progress #punctual 
+
+``` c
+o << 0.8;
+
+x << [-2, -1.9 .. 2]; 
+y << 0; 
+
+w << 0.2; 
+
+-- [1,1,1] >> video; 
+
+[0,0,0] >> video; 
+
+r << 0.2; 
+g << 0.8; 
+b << 0.1; 
+
+w << 0.02; 
+
+spin [osc(pi*0.02)] $ fit (1/1) $ rect [x, y] [w,w] * o >> video; 
+```
+
+***
 ### repeating video input in the shape of a flower #punctual 
 Repeat video input in the shape of a flower. 
 
