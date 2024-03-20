@@ -1,4 +1,44 @@
 ***
+### kucch crazy ho gaya #punctual 
+
+``` c
+--bg
+
+
+o << 0.2; 
+
+r << 0.1; 
+g << 0.02; 
+b << 0.08;  
+
+-- top square 
+spin[osc(cam*0.002)] $ 
+rect [cam,0] [2,2] * o * [r,cam/2,cam/0.8]* o>> video;
+
+[0,0,0] >> video; 
+```
+
+![[Screenshot 2024-03-20 at 10.53.51 PM.png]]
+![[Screenshot 2024-03-20 at 10.55.02 PM.png]]
+
+22:55, 2024-03-20
+***
+### face in rectangle #punctual 
+Trying to clip face to make typography. I don't understand what's happening, but let's see. I'll figure it out. 
+
+``` c
+[0,0,0] >> video; 
+
+o << 1; 
+
+rect [0, 0] $ 
+[cam] * o >> video; 
+```
+
+![[Screenshot 2024-03-20 at 10.32.19 PM.png]]
+
+22:32, 2024-03-20
+***
 ### in progress #punctual 
 
 ``` c
